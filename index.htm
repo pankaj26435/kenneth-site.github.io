@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kenneth Barnes Project</title>
+    <meta name="keywords" content=" funny ecards, funny e-cards, funny greeting cards, fun cards, funny greetings, free, funny, ecards, greetings, free cards, card, cards, postcards, animated, ecard, e cards, card, postcard, posty, email card, email, love, birthday, easter, holidays, christmas, halloween, thanksgiving, art, 3d, halloween, valentines, st patrick, love, break up, landscape, java, abstract, fun, send">
+    <meta name="description" content=" DeepTrench Cartoony ecards for occassions and holidays. Offers premium and free collections! Also get free games, downloads, and streams.">
+
+    <link href="https://unpkg.com/tailwindcss\@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/\@lottiefiles/lottie-player\@latest/dist/lottie-player.js"></script>
+
+    <style>
+      body {
+          background: repeating-linear-gradient(145deg, #FFF0C5, #FFF0C5 10px, #FDE19C 10px, #FDE19C 20px);
+      }
+    </style>
+  </head>
+
+  <div class='max-w-screen-lg p-6 rounded-xl my-4 mx-auto'>
+    <!-- quote here -->
+    <blockquote>
+      $topnav01
+    </blockquote>
+
+    <div class='pt-4 bg-white'>
+      <div class='flex flex-wrap'>
+        <div class='w-full relative'>
+          <div class='absolute'>
+            <lottie-player src="$assets_url/assets/lottiefiles/above-member-icon.json" background="transparent" speed="0.2" style="width: 38%;" loop autoplay></lottie-player>
+          </div>
+          <div style='padding-left:5%;padding-right:1%'>
+            <img src='$assets_url/assets/website-13.png'/>
+          </div>
+        </div>
+        <div class='w-full' style='z-index:9999;margin-left:2%'>
+          <lottie-player src="$assets_url/assets/lottiefiles/v3/1-Featured.json" background="transparent" speed="0.2" style="width:99%;" loop autoplay></lottie-player>
+        </div>
+      </div>
+    </div>
+
+
+    <blockquote>
+      $index_categories_html
+    </blockquote>
+    <img src='$assets_url/assets/website-11.png'/>
+  </div>
+  <script>
+    const animateGroup = (num, animation) => {
+      let elems = document.querySelectorAll(`.animate__group${ num }`)
+      elems.forEach(elem => {
+        elem.onmouseenter = () => { elem.classList.add(animation) }
+        elem.onmouseleave = () => { elem.classList.remove(animation) }
+      })
+    }
+
+    animateGroup(1, 'animate__pulse')
+    // animateGroup(2, 'animate__pulse')
+
+  </script>
+</body>
+</html>
